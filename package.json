@@ -9,11 +9,10 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "ghooks": "^2.0.4"
+    "chalk": "^4.1.0",
+    "yorkie": "^2.0.0"
   },
-  "config": {
-    "ghooks": {
-      "commit-msg": "node index.js"
-    }
+  "gitHooks": {
+    "commit-msg": "node index.js"
   }
 }
