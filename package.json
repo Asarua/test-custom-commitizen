@@ -11,7 +11,9 @@
   "devDependencies": {
     "ghooks": "^2.0.4"
   },
-  "ghooks": {
-    "commit-msg": "node index.js"
+  "config": {
+    "ghooks": {
+      "commit-msg": "node index.js"
+    }
   }
 }
