@@ -10,5 +10,8 @@
   "license": "ISC",
   "devDependencies": {
     "ghooks": "^2.0.4"
+  },
+  "ghooks": {
+    "commit-msg": "node index.js"
   }
 }
